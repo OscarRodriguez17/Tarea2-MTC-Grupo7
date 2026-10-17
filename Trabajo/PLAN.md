@@ -2,8 +2,11 @@
 ## Plan de trabajo — GRUPO 7
 
 **Proyecto:** Bodegas BSL Quilicura — Calle Meulén N°331 (ex 451), Lote F, Quilicura.
+**Integrantes:** Oscar Rodríguez · Nicolás Letelier (Grupo 7)
+**Repositorio:** https://github.com/OscarRodriguez17/Tarea2-MTC-Grupo7
 **Entrega:** viernes 13 de noviembre de 2026, 23:59 hrs.
 **Puntaje total:** 180 puntos.
+**Inicio de obras (según enunciado):** marzo de 2026.
 
 ---
 
@@ -117,7 +120,9 @@ Redactar las 6 secciones con tablas y capturas de Project. Exportar a PDF.
 ---
 
 ## 5. Pendientes / decisiones
-- [ ] Fuente de precios unitarios (bases chilenas / internet / aporte del grupo) — a definir.
-- [ ] Valores oficiales de IPC (base enero 2026 y mes de cierre) — verificar en INE.
-- [ ] Integrantes del grupo (máx. 2) e informe del grupo por CANVAS.
-- [ ] Fecha exacta de inicio de obras (marzo 2026) y calendario.
+- [x] Integrantes del grupo (Oscar Rodríguez · Nicolás Letelier) — informar por CANVAS
+- [x] Repositorio GitHub creado y colaborador invitado
+- [x] Fecha de inicio de obras fijada: **marzo de 2026** (según enunciado)
+- [ ] Fuente de precios unitarios — investigación en curso (`09_Precios_Referenciales.md`)
+- [ ] Valores oficiales de IPC (base enero 2026 y mes de cierre) — verificar en INE
+- [ ] Calendario y feriados de 2026 para MS Project
