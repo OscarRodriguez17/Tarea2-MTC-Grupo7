@@ -5,7 +5,7 @@
 
 **Advertencia metodológica (leer antes de usar la tabla).**
 1. **No todos los precios están a enero 2026.** La mayoría de las fuentes públicas consultadas están fechadas entre **junio y septiembre de 2026** (algunas 2025). En la columna *Fuente* se indica la **fecha o periodo** de cada dato. Donde no fue posible obtener un precio de enero 2026, se usó el **más reciente disponible** y se anota su fecha.
-2. **Las columnas de precio son costo directo referencial (CLP), sin IVA**, salvo que se indique lo contrario. Los **gastos generales y utilidades se agregan a nivel de presupuesto** (ver §5), no están incorporados partida a partida.
+2. **Las columnas de precio son costo directo referencial (CLP), sin IVA**, salvo que se indique lo contrario. Los **gastos generales y utilidades se agregan a nivel de presupuesto** (ver §4), no están incorporados partida a partida.
 3. Se distingue con claridad **dato con fuente** versus **estimación**:
    - **Alta / Media / Baja** = existe una fuente verificable (mayor o menor exactitud de la comparación).
    - **Estimado (sin fuente directa)** = valor construido por **analogía** con partidas similares; el razonamiento se explica en observaciones o en §3.
@@ -32,19 +32,19 @@
 | 1.11 | Preparación de la Subrasante Caminos y Áreas de Servicio | m² | 1.500 | Estimado (sin fuente directa) | Ídem 1.10 |
 | 1.12 | Base Granular Caminos | m³ | 21.500 | Alta | CYPE Chile — Base granular zahorra compactada 95% PM = 21.453,16/m³ (2026) |
 | 1.13 | Base Granular Bodegas | m³ | 21.500 | Alta | Ídem 1.12 |
-| 1.14 | **Hormigón G-25 radier (malla Acma C-92)** | m³ | **168.000** | Media | **Desglose en §3.1** — ONDAC G25 in situ 147.502/m³ + malla Acma C-92 (factoia) |
+| 1.14 | **Hormigón G-25 radier (malla Acma C-92)** | m³ | **168.000** | Media | **Desglose en §2.1** — ONDAC G25 in situ 147.502/m³ + malla Acma C-92 (factoia) |
 | 1.15 | Hormigón G-35 calles | m³ | 155.000 | Baja | obrahub.app H30 105.000–130.000/m³ (2026) ajustado a G-35 (+~20–25%) |
 | 1.16 | Hormigón G-25 Fundaciones Zapatas | m³ | 165.000 | Media | ONDAC G25 147.502/m³ (01-sep-2026) + moldaje y colocación |
 | 1.17 | Hormigón G-04 Emplantillado Fundaciones | m³ | 110.000 | Baja | Analogía con H15 (CYPE ANS010 H20 = 61.903/m³ in situ; H-4 pobre ≈ menor resistencia pero similar logística) |
 | 1.18 | Hormigón G-25 Vigas de Fundación | m³ | 170.000 | Media | ONDAC G25 147.502/m³ + moldaje |
-| 1.19 | **Hormigón G-25 Pedestales Galpones y Oficinas** | m³ | **185.000** | Media | **Desglose en §3.2** — ONDAC G25 + moldaje |
+| 1.19 | **Hormigón G-25 Pedestales Galpones y Oficinas** | m³ | **185.000** | Media | **Desglose en §2.2** — ONDAC G25 + moldaje |
 | 1.20 | Hormigón G-25 Muros Galpones y Oficinas | m³ | 175.000 | Media | ONDAC G25 147.502/m³ + moldaje de muro |
 | 1.21 | Enfierradura Fundaciones Zapatas | kg | 1.340 | Alta | ONDAC EA/08001 — acero A63-42H = 1.340/kg (01-sep-2026) |
 | 1.22 | Enfierradura Vigas de Fundación | kg | 1.340 | Alta | Ídem 1.21 |
 | 1.23 | Enfierradura Pedestales | kg | 1.340 | Alta | Ídem 1.21 |
 | 1.24 | Enfierradura Muros | kg | 1.340 | Alta | Ídem 1.21 |
 | 1.25 | Demolición de Aceras | m² | 4.450 | Media | APU Demolición de aceras (Itemizar) 4.450/m² (2026); contraste CYPE demolición radier 3.724,30/m² |
-| 1.26 | **Remoción de Soleras** | m | **3.500** | Estimado (sin fuente directa) | **Desglose en §3.3** — componentes CYPE + rendimiento |
+| 1.26 | **Remoción de Soleras** | m | **3.500** | Estimado (sin fuente directa) | **Desglose en §2.3** — componentes CYPE + rendimiento |
 | 1.27 | Solera Tipo A | m | 13.500 | Estimado (sin fuente directa) | Prefabricado Grau/Aconcret (solera MINVU tipo A) + colocación; rango de prefabricados |
 | 2.1 | Estructura Metálica Montado y Pintado | kg | 2.000 | Media | CYPE EAM020 cerchas A36 = 27.140/m² (18,75 kg/m² → 1.447/kg) + montaje y pintura |
 | 2.2 | Aislación | m² | 4.500 | Media | factoia.cl aislantes (lana de vidrio ~2.400/m², 12-jun-2026) + colocación |
@@ -59,7 +59,7 @@
 | 2.11 | Sala agua potable | m² | 650.000 | Estimado (sin fuente directa) | Recinto técnico con instalaciones; sin fuente directa |
 | 2.12 | Sala residuos | m² | 550.000 | Estimado (sin fuente directa) | Recinto simple; sin fuente directa |
 | 2.13 | Cierre Perimetral Acmaford | ml | 30.000 | Media | calculaconstruccion.com — malla Acma 3D c/postes 25.000–40.000/ml (2026); cierreparcela.cl panel Acmafor 1,83×2,50 m $32.990 |
-| 2.14 | **Cierre perimetral Bulldog** | ml | **52.000** | Media | **Desglose en §3.4** — pandereta prefabricada (calculaconstruccion 35.000–55.000/ml) |
+| 2.14 | **Cierre perimetral Bulldog** | ml | **52.000** | Media | **Desglose en §2.4** — pandereta prefabricada (calculaconstruccion 35.000–55.000/ml) |
 
 **Resumen de la tabla:** 41 partidas → **26 con fuente directa (Alta/Media)** y **15 estimadas por analogía (marcadas explícitamente)**.
 
@@ -67,9 +67,9 @@
 
 ## 2. Desglose de las 4 partidas de PU detallado (Grupo 7)
 
-> Los siguientes análisis corresponden a **costo directo**. Sobre el total de cada partida se aplican, a nivel de presupuesto, gastos generales y utilidades (§5). Los precios de hormigón y acero son de **ONDAC (01-sep-2026)**; los de malla/áridos de **factoia.cl (12-jun-2026)** y **CYPE (2026)**.
+> Los siguientes análisis corresponden a **costo directo**. Sobre el total de cada partida se aplican, a nivel de presupuesto, gastos generales y utilidades (§4). Los precios de hormigón y acero son de **ONDAC (01-sep-2026)**; los de malla/áridos de **factoia.cl (12-jun-2026)** y **CYPE (2026)**.
 
-### 3.1 — Ítem 1.14: HORMIGÓN G-25 RADIER (con malla Acma C-92) — unidad m³
+### 2.1 — Ítem 1.14: HORMIGÓN G-25 RADIER (con malla Acma C-92) — unidad m³
 
 **Criterio:** radier de hormigón G-25 de 15 cm de espesor de referencia (1 m³ = 6,67 m²). Incluye suministro, colocación, vibrado, curado y malla electrosoldada C-92. **No incluye** base granular ni preparación de subrasante (partidas 1.10 y 1.13, separadas).
 
@@ -86,7 +86,7 @@
 - **Mano de obra y equipo:** incluidos en el precio unitario ONDAC (faena in situ).
 - **Rendimiento de referencia (para duraciones):** el manual ONDAC reporta una dosificación de 382,5 kg de cemento/m³ para G-25; la cuadrilla típica (2 jornales + 1 maestro) coloca del orden de 20–30 m³/jornada con regla vibrante y bombas.
 
-### 3.2 — Ítem 1.19: HORMIGÓN G-25 PEDESTALES GALPONES Y OFICINAS — unidad m³
+### 2.2 — Ítem 1.19: HORMIGÓN G-25 PEDESTALES GALPONES Y OFICINAS — unidad m³
 
 **Criterio:** pedestales de hormigón armado G-25, con moldaje de 4 caras. La **enfierradura se valoriza por separado** (partida 1.23).
 
@@ -102,7 +102,7 @@
 
 - **Nota:** en pedestales esbeltos la **relación moldaje/hormigón** es alta (≈ 8–10 m² de moldaje por m³), lo que explica que el PU supere al de elementos masivos.
 
-### 3.3 — Ítem 1.26: REMOCIÓN DE SOLERAS — unidad m (lineal)
+### 2.3 — Ítem 1.26: REMOCIÓN DE SOLERAS — unidad m (lineal)
 
 **Criterio:** corte de la solera existente, demolición y retiro de escombros. Solera de referencia: sección 0,16 m × 0,30 m (≈ 0,048 m³/m).
 
@@ -116,7 +116,7 @@
 | **COSTO DIRECTO TOTAL** | | **≈ 3.628** | |
 | **PU ADOPTADO** | | **3.500** | Confianza **Estimado** |
 
-### 3.4 — Ítem 2.14: CIERRE PERIMETRAL BULLDOG — unidad ml
+### 2.4 — Ítem 2.14: CIERRE PERIMETRAL BULLDOG — unidad ml
 
 **Criterio:** cierre perimetral tipo "Bulldog" = **pandereta/placas prefabricadas de hormigón vibro-comprimido** (usualmente 4 placas de 50 cm = 2,0 m de altura) montadas sobre postes y cimiento. **No incluye flete** a obra.
 
@@ -139,7 +139,7 @@
 | Mes 2026 | Variación mensual | Acumulada | 12 meses | Observación |
 |---|---|---|---|---|
 | Enero | **+0,4%** | +0,4% | +2,8% | Base de reajuste — confirmado (boletín INE) |
-| Febrero | 0,0% *(derivado)* | +0,4% | — | Derivado: acum. marzo (1,4%) − ene (0,4%) − mar (1,0%) |
+| Febrero | *por confirmar* | — | — | Dato derivado e inconsistente entre fuentes — verificar en INE |
 | Marzo | **+1,0%** | +1,4% | +2,8% | Confirmado (boletín INE marzo 2026) |
 | Abril | **+1,3%** | ~+2,7% | — | Mes de mayor alza del año (transporte +8,0%) |
 | Mayo–Julio | no verificado individualmente | — | — | No se obtuvo boletín mensual específico |
@@ -147,7 +147,14 @@
 | Septiembre | **+0,4%** | **+4,0%** | +4,1% | Confirmado (INE, publicado 08-oct-2026) |
 
 - **Acumulado enero–septiembre 2026 ≈ +4,0%**; a 12 meses ≈ +4,1%.
-- **Nota metodológica:** los boletines mensuales de mayo, junio y julio de 2026 no se pudieron verificar en la fuente individual; deben consultarse directamente en el portal INE antes de cerrar los estados de pago.
+- **⚠️ Pendiente crítico para los estados de pago — nivel del índice.** El reajuste se calcula como
+  `monto × (IPC_mes_cierre / IPC_enero_2026)`, y eso requiere el **NIVEL del índice** (base 2023 = 100)
+  de enero 2026 y del mes de cierre de cada estado de pago, **no la variación mensual**. Este documento
+  entrega variaciones; antes de cerrar la valorización hay que **bajar los niveles oficiales** desde el
+  portal INE (serie IPC base 2023 = 100) o la calculadora IPC del INE.
+- **Mes de cierre por confirmar:** aún no está fijado qué mes corresponde a cada estado de pago (depende de
+  la programación). Una vez cerrado el cronograma, hay que traer el IPC exacto de esos meses.
+- **Nota metodológica:** los boletines mensuales de mayo, junio y julio de 2026 no se pudieron verificar en la fuente individual; deben consultarse directamente en el portal INE antes de cerrar los estados de pago. El dato de **febrero** (0,0%) es derivado y resulta **inconsistente** con otras fuentes, por lo que debe **confirmarse** (no usar sin verificar).
 - **Fuente principal:** INE — *Boletín IPC* (enero, marzo, agosto y septiembre de 2026). Base de referencia del índice: 2023 = 100.
 - **Fuente de contraste:** SII — tabla UTM/IPC 2026; calculadoraipc.cl; zepro.cl.
 
