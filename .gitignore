@@ -1,0 +1,14 @@
+# Carpeta temporal de extracción (contenido ya copiado a Antecedentes/ y Planos/)
+extraido/
+
+# ZIP originales (su contenido ya está extraído en Antecedentes/ y Planos/)
+*.zip
+
+# Archivos temporales de Office
+~$*
+*.tmp
+
+# Sistema
+Thumbs.db
+.DS_Store
+desktop.ini
